@@ -1,0 +1,40 @@
+
+.container{
+    width: 80vw;
+    height: 60vh;
+    background-color: black;
+    animation: backup 2s ease-out 0s infinite alternate;
+}
+@keyframes backup {
+    0%{
+       background-image: url(Lambor.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       transform: translate(-200px, 200px, 200px, 200px);
+    }
+    25%{
+       background-image: url(delorean.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       transform: translate(-200px 200px);
+    }
+    50%{
+        
+        background-image: url(delorean1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translate(-200px 200px);
+    }
+    75%{
+        background-image: url(Lambor.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translate(-200px 200px);
+    }
+    100%{
+        background-image: url(delorean.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translate(-200px 200px);
+    }
+}

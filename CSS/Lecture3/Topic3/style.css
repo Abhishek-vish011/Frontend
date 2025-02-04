@@ -1,0 +1,11 @@
+div{
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
+    border: 2px solid black;
+    margin: 3px;
+    display: inline-block;
+}
+#third{
+    display: none;
+}

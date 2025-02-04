@@ -1,0 +1,60 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (width: 400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    p{
+        height: 100px;
+        width: 300px;
+        background-color: rgb(133, 127, 255);
+    }
+}
+@media (min-width: 800px){
+    h1{
+        background-color: orangered;
+        color: gray;
+    }
+    p{
+        height: 100px;
+        width: 500px;
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 350px){
+    h1{
+        background-color: skyblue;
+        color: brown;
+    }
+    p{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(127, 255, 153);
+    }
+}
+@media (min-width: 350px) and (max-width: 799px){
+    h1{
+        
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p{
+        background-color: chocolate;
+        color: black;
+    }
+}
+
+/* Orientation- landscape/portriate */
+@media (orientation: landscape){
+    h1{
+        background-color: crimson;
+        color: white;
+    }
+    p{
+        background-color: crimson;
+        color: white;
+
+    }
+}

@@ -1,0 +1,39 @@
+/* Practice Qs-1 */
+h1{
+    color: pink;
+}
+#greet{
+    color: yellow;
+}
+.myClass{
+    color: brown;
+}
+
+/* Practice Qs-2 */
+div p{
+    background-color: black;
+}
+.para{
+    background-color: aquamarine;
+}
+p{
+    background-color: yellowgreen;
+}
+
+/* Practice Qs-3 */
+div.greeDiv .greet{
+    color: green;
+}
+
+.greetDiv p.greet{
+    color: blue;
+}
+
+.greetDiv .greet{
+    color: red;
+}
+
+/* !important */
+h2{
+    background-color: aqua !important;
+}

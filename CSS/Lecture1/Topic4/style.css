@@ -1,0 +1,12 @@
+h1{
+   text-align: center;
+}
+h4{
+    text-align: end;
+}
+p{
+    text-align: right;
+}
+h2{
+    text-align: start;
+}

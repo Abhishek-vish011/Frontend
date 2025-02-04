@@ -1,0 +1,26 @@
+/* Pseudo Element */
+h1::first-letter{
+    color: orangered;
+    font-weight: bold;
+}
+h3::first-line{
+    text-decoration: wavy underline;
+    color: cadetblue;
+}
+p::first-line{
+    color: brown;
+}
+p::selection{
+    background-color: goldenrod;
+}
+
+/* Cascading */
+h1{
+    background-color: aquamarine;
+}
+h1{
+    background-color: orchid;
+}
+
+/* Specificity (id > class > element) */
+/* inline Specificity (inline style > id > class > element) */

@@ -1,0 +1,62 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 50px;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: fontAnimate 2s ease-in 1s infinite alternate; */
+    animation: widthAnimate 3s ease-in 0s infinite alternate;
+}
+
+@keyframes widthAnimate {
+    from{
+        width: 10px;
+        font-size: 1px;
+        background-color: pink;
+    }
+    to{
+        width: 300px;
+        font-size: 35px;
+        background-color: aquamarine;
+        border-radius: 50%;
+    }
+}
+/* @keyframes fontAnimate {
+    from{
+        font-size: 10px;
+    }
+    to{
+        font-size: 35px;
+    }
+} */
+
+/* Percentage in Animations */
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 50px;
+    animation: colorAnimate 2s ease-in 1s infinite normal;
+}
+@keyframes colorAnimate {
+    0%{
+        background-color: pink;
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: chocolate;
+    }
+    75%{
+        background-color: gray;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+}

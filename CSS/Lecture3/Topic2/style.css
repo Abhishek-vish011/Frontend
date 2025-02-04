@@ -1,0 +1,27 @@
+/* h2{
+    display: inline;
+    background-color: bisque;
+}
+
+span{
+    display: block;
+    background-color: aqua;
+} */
+
+span{
+    /* background-color: pink; */
+    border: 2px solid black;
+    height: 50px; /*NOT Response */
+    width: 40px;
+    padding: 50px; /* left and right */
+    margin: 50px;
+}
+
+div{
+    /* background-color: pink; */
+    border: 2px solid black;
+    height: 50px; 
+    width: 50px;
+    padding: 50px; 
+    margin: 50px;
+}

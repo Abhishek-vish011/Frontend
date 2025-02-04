@@ -1,0 +1,10 @@
+let game = [['X',null,'O'],[null,'X',null],['O',null,'X']];
+console.log(game);
+game[0][1]='X';
+console.log(game);
+game[1][0]='O';
+console.log(game);
+game[1][2]='X';
+console.log(game);
+game[2][1]='O';
+console.log(game);

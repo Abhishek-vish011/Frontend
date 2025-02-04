@@ -1,0 +1,21 @@
+div{
+    background-color: bisque;
+}
+
+/* form{
+    background-color: cadetblue;
+} */
+
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+/* color palletes
+   Conva and Colorspace */
